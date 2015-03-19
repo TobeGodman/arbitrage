@@ -1,0 +1,4 @@
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\quote\bin\Release\quote.dll
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\quote\bin\Release\quote.pdb
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\quote\obj\x86\Release\quote.dll
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\quote\obj\x86\Release\quote.pdb

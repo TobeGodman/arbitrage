@@ -1,0 +1,5 @@
+C:\Users\jht\Desktop\app\arbitrage.exe.config
+C:\Users\jht\Desktop\app\arbitrage.exe.manifest
+C:\Users\jht\Desktop\app\arbitrage.application
+C:\Users\jht\Desktop\app\arbitrage.exe
+C:\Users\jht\Desktop\app\arbitrage.pdb

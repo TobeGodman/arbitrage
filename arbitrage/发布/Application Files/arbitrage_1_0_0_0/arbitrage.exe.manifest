@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="arbitrage.exe" version="1.0.0.0" publicKeyToken="bb1f0900cd2ea7a2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="arbitrage" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="arbitrage.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.Types" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="arbitrage.exe" size="47008">
+      <assemblyIdentity name="arbitrage" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9B4s8K49F4meIFbJUW2yn1uRA4OblA2dtiIU1niKUGc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="quote.dll" size="15872">
+      <assemblyIdentity name="quote" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fAnausm2SRUxsI1fUciFSje7RiEr5rMUZuc+DdFQsys=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="trade.dll" size="26624">
+      <assemblyIdentity name="trade" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ejvAHI974Ivd6wEK7gkG/gYhRebWQbLHF7+zvxIo44k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="arbitrage.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=jht-PC\jht" issuerKeyHash="8d79df50a5502543ef6f8a8d877d65874c88c546" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>61MnGQF23BC4x9+Vs/eme02gfhRd7whlwaH/j6Qzge8=</DigestValue></Reference></SignedInfo><SignatureValue>WD+v7JPqyHduSDZxJrRhl4i7MFEs4MvAYl7x3uVjArDtQBo/xU2sO7Pnv5Jkb0x/y5/CvZUnWsjD8lHE6M6pIAkslIhE3SKJjLSBL7eQ82zw1/FQOFjfPHzmWwkgCjTGMXdMzch8ejazyQf5SVP5oBYuJz21QblyeTFxrBK1nKc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>thDYepO4XccFCAif0V6nx5ncCSVelcbPy83/OegN369Bz/ttdD6klyP428h7n6pupV8YFBsS08ir1VP806xPhxX+9EkvdGDECQgn0Gs5kABzw1ruLdjNfak9iB7JfgAAbXBqQBJoOblLtN3nTwdheBcP2DmfdT/81nGUZSC0bOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ef8133a48fffa1c16508ef5d147ea04d7ba6f7b395dfc7b810dc7601192753eb" Description="" Url=""><as:assemblyIdentity name="arbitrage.exe" version="1.0.0.0" publicKeyToken="bb1f0900cd2ea7a2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=jht-PC\jht</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XvIg+EFhKZxR0wxryUdgUVMVr3cMu9+k4gh025x2s5M=</DigestValue></Reference></SignedInfo><SignatureValue>p+6yCJtbLkS9I1Z95g74AQeNdjuBC38ZGZB+pYGHPkPrkSAYwvFRD+p2ZDKErVearGDsOT79cpCIC7jzpxmHXQVPXwUxJWycHXZ9xjoEvUNE98XBUmFYqIlqbH2FsiXyxzvMp/JcyqmdYul0WQpXrqzvtujd5na5CqaIxcJUWnY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>thDYepO4XccFCAif0V6nx5ncCSVelcbPy83/OegN369Bz/ttdD6klyP428h7n6pupV8YFBsS08ir1VP806xPhxX+9EkvdGDECQgn0Gs5kABzw1ruLdjNfak9iB7JfgAAbXBqQBJoOblLtN3nTwdheBcP2DmfdT/81nGUZSC0bOE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQY+WwsBD7hoBC7+3LdWurMDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAagBoAHQALQBQAEMAXABqAGgAdDAeFw0xNTAxMjMwNjE1NDFaFw0xNjAxMjMxMjE1NDFaMB8xHTAbBgNVBAMeFABqAGgAdAAtAFAAQwBcAGoAaAB0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2ENh6k7hdxwUICJ/RXqfHmdwJJV6Vxs/Lzf856A3fr0HP+210PqSXI/jbyHufqm6lXxgUGxLTyKvVU/zTrE+HFf70SS90YMQJCCfQazmQAHPDWu4t2M19qT2IHsl+AABtcGpAEmg5uUu03edPB2F4Fw/YOZ91P/zWcZRlILRs4QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKrdJie6B+CB98TMqH08bm+ngnhkRIhqVA1ixvXPxgb+8miXETFS+thwiVWI8AYS90zz+rJwu3l1ex2bgdXYVS092nTSEJS3TiSFMGe1C2M3RAG+5qDNKsyFzkk1YpnLsDJeZzbQB1Sq7sjZgKoWej5PiA9ppCL1veACU5Lss+8f</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

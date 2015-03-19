@@ -1,0 +1,4 @@
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\trade\bin\Release\trade.dll
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\trade\bin\Release\trade.pdb
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\trade\obj\x86\Release\trade.dll
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\trade\obj\x86\Release\trade.pdb

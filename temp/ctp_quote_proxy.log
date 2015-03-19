@@ -1,0 +1,18 @@
+﻿生成启动时间为 2015/2/26 16:03:13。
+     1>项目“C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\ctp_quote_proxy\ctp_quote_proxy.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\temp\) contains files shared from another project (ctp_trade_proxy.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CTP_QUOTE_PROXY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\temp\\" /Fd"..\temp\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ctp_quote_proxy.cpp
+         ctp_quote_proxy.cpp
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CTP_QUOTE_PROXY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\temp\\" /Fd"..\temp\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\arbitrage\bin\Release\ctp_quote_proxy.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\tradeapidll\ thostmduserapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\tradeapidll\defquote.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\arbitrage\bin\Release\ctp_quote_proxy.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\arbitrage\bin\Release\ctp_quote_proxy.lib" /MACHINE:X86 /SAFESEH /DLL ..\temp\ctp_quote_proxy.obj
+         ..\temp\dllmain.obj
+            Creating library ..\arbitrage\bin\Release\ctp_quote_proxy.lib and object ..\arbitrage\bin\Release\ctp_quote_proxy.exp
+         ctp_quote_proxy.vcxproj -> C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\ctp_quote_proxy\..\arbitrage\bin\Release\ctp_quote_proxy.dll
+     1>已完成生成项目“C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\ctp_quote_proxy\ctp_quote_proxy.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.35

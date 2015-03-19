@@ -1,0 +1,8 @@
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\quote\bin\Release\quote.dll
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\quote\bin\Release\quote.pdb
+C:\Users\jht\Desktop\app\quote.dll
+C:\Users\jht\Desktop\app\quote.pdb
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\arbitrage\bin\Release\quote.dll
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\arbitrage\bin\Release\quote.pdb
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\quote\obj\Release\quote.dll
+C:\Users\jht\Documents\Visual Studio 2013\Projects\arbitrage\quote\obj\Release\quote.pdb
